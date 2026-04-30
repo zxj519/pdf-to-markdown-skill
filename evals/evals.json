@@ -1,0 +1,23 @@
+{
+  "skill_name": "pdf-to-markdown",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Convert the PDF at /Users/zxj519/Documents/workspace/lure-wiki/raw/books/ebookbrassfishing.pdf to markdown. Save to /tmp/pdf-to-markdown-workspace/iteration-1/eval-convert/output.md. Then clean the output: remove repeated headers like 'BASS FISHING 101', page numbers, and promotional lines like 'More Free eBooks'. Ensure paragraphs are continuous and headings use proper # hierarchy.",
+      "expected_output": "Clean markdown file (~3000+ lines) with no noise, proper structure.",
+      "files": ["/Users/zxj519/Documents/workspace/lure-wiki/raw/books/ebookbrassfishing.pdf"]
+    },
+    {
+      "id": 2,
+      "prompt": "Clean up this small PDF excerpt: /tmp/pdf-to-markdown-workspace/test-excerpt.md. It contains repeated headers, page numbers, dot-leader TOC entries, and broken paragraphs. Save the cleaned output to /tmp/pdf-to-markdown-workspace/iteration-2/eval-cleanup/output-clean.md. Provide a summary of changes.",
+      "expected_output": "Cleaned markdown file (~60 lines) with noise removed and paragraphs merged.",
+      "files": ["/tmp/pdf-to-markdown-workspace/test-excerpt.md"]
+    },
+    {
+      "id": 3,
+      "prompt": "Check if @pspdfkit/pdf-to-markdown is installed on this system. If not, install it globally. Then verify it works by running --version. Report the installation path and version.",
+      "expected_output": "Installation status, version number, and path to the tool.",
+      "files": []
+    }
+  ]
+}
