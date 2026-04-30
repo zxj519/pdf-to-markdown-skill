@@ -27,6 +27,11 @@ This skill uses **Nutrient pdf-to-markdown** (`@pspdfkit/pdf-to-markdown`),
 a Node.js CLI tool that converts PDF pages to Markdown with preserved
 structure (headings, paragraphs, lists).
 
+**License note**: `@pspdfkit/pdf-to-markdown` is proprietary software licensed
+under the Nutrient Free Use License. Free usage is limited to 1,000 documents
+per calendar month. Commercial use beyond this limit requires a paid license.
+Do not remove or alter Nutrient's copyright or proprietary notices.
+
 ### Installation check
 
 Before converting, check if the tool is available:

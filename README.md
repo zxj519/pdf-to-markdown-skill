@@ -78,4 +78,12 @@ python3 ~/.agents/skills/pdf-to-markdown/scripts/cleanup.py book_raw.md book_cle
 
 ## License
 
-MIT
+This skill (scripts, documentation, and metadata) is licensed under the MIT License.
+
+**However**, this skill relies on `@pspdfkit/pdf-to-markdown` (Nutrient CLI), which is **proprietary software** licensed under the [Nutrient Free Use License](https://raw.githubusercontent.com/PSPDFKit/pdf-to-markdown/refs/heads/main/LICENSE.md). Key restrictions:
+
+- Free use: up to 1,000 documents/month
+- Commercial use beyond that requires a paid license from Nutrient
+- You may not use it to compete with Nutrient's offerings
+
+By using this skill, you are responsible for complying with Nutrient's license terms.
